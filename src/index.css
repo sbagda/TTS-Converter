@@ -1,0 +1,728 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page1 {
+  height: 100vh;
+  width: 100%;
+}
+.page1 img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  filter: blur(3px);
+}
+.page1-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.page1-content nav {
+  height: 80px;
+  width: 100%;
+  background: #312b41;
+  display: flex;
+}
+.page1-content nav h2 {
+  color: #fff;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.page1-content nav .nav-items {
+  padding-top: 25px;
+  padding-left: 8rem;
+  width: 53rem;
+  display: flex;
+  justify-content: space-between;
+}
+.page1-content nav .nav-items a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.page1-content nav .end-text {
+  width: 20rem;
+  padding-top: 20px;
+  margin-left: 40rem;
+}
+.page1-content .active-area {
+  width: 100%;
+  height: 18rem;
+  background-color: #312b41;
+  margin-top: 5rem;
+}
+.btn-b {
+  font-size: 22px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: #fff154;
+  text-align: center;
+  margin: 60px;
+  margin-left: 10rem;
+  width: 15rem;
+  height: 3.5rem;
+}
+.page1-content .btn-b .link {
+  text-decoration: none;
+  color: #312b41;
+}
+
+.page1-content .text {
+  width: 50rem;
+  height: 30rem;
+}
+.page1-content .text h2 {
+  padding-top: 6rem;
+  font-size: 61.675px;
+  padding-left: 10rem;
+  font-weight: 700;
+}
+.page1-content .text p {
+  padding-top: 11px;
+  padding-left: 10rem;
+  font-size: 1.5rem;
+  color: #6f7082;
+}
+.user-icon {
+  color: #fff;
+  font-size: 2.8rem;
+  padding-left: 12px;
+}
+
+/* css for page2 content */
+
+.page2 {
+  height: 100vh;
+  width: 100%;
+}
+.page2 img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  filter: blur(3px);
+}
+.page2-content h2 {
+  color: #312b41;
+  font-family: sans-serif;
+  font-size: 55.5px;
+  margin: 0 0 24.75px;
+  position: relative;
+  font-weight: 700;
+  padding-top: 200px;
+  padding-left: 12rem;
+}
+.page2-content p {
+  padding-left: 12rem;
+  font-size: 23.625px;
+  position: relative;
+  font-family: sans-serif;
+  width: 102rem;
+  color: #6f7082;
+}
+.page2-content .card-container .card {
+  height: 16rem;
+  width: 90rem;
+  margin-left: 12rem;
+  position: relative;
+  margin-bottom: 15px;
+  z-index: 5;
+}
+.page2-content .card-container {
+  height: 100rem;
+  width: 100%;
+  margin-top: 6rem;
+  position: relative;
+}
+.page2-content .card-container .card h4 {
+  font-size: 35.75px;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-left: 50px;
+  color: #312b41;
+  margin-right: 3rem;
+}
+
+.page2-content .video-icon {
+  margin-left: 6px;
+  margin-bottom: 5px;
+}
+.page2-content .card-container .card p {
+  padding-top: 10px;
+  padding-left: 50px;
+  width: 85rem;
+  color: #6f7082;
+  font-size: 23.625px;
+  position: relative;
+}
+
+/* css for page 3 content */
+
+.page3 {
+  height: 100vh;
+  width: 100%;
+}
+.page3 img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  background-size: cover;
+  position: absolute;
+  filter: blur(3px);
+}
+.page3 .img2 {
+  margin-top: 100vh;
+  opacity: 0.2;
+  filter: blur(3px);
+  position: absolute;
+}
+.page3 .page3-content {
+  height: 200vh;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+}
+.page3-content h2 {
+  color: #312b41;
+  font-family: sans-serif;
+  font-size: 55.5px;
+  margin: 0 0 24.75px;
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+  padding-top: 90vh;
+  padding-left: 12rem;
+}
+
+.page3 .page3-content .video {
+  height: 80vh;
+  margin-top: 5rem;
+  width: 90rem;
+  margin-left: 12rem;
+  border: 0.4px solid black;
+  border-radius: 1rem;
+  padding: 10px;
+  position: relative;
+  z-index: 5;
+  background-color: #dadada;
+}
+.page3-content p {
+  padding-left: 12rem;
+  font-size: 23.625px;
+  position: relative;
+  font-family: sans-serif;
+  width: 102rem;
+  color: #6f7082;
+}
+.page3-content .video video {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border: 0.5px solid black;
+  border-radius: 1rem;
+  position: relative;
+  z-index: 5;
+}
+.page3-content p span {
+  color: #312b41;
+  font-weight: 500;
+}
+span {
+  color: #312b41;
+  font-weight: 500;
+}
+
+/* css for page4 content */
+
+.page4 {
+  height: 200vh;
+  width: 100%;
+}
+.page4 .b-img {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.2;
+  z-index: -3;
+  background-size: cover;
+  position: absolute;
+  margin-top: 101vh;
+  filter: blur(3px);
+}
+.page4 .page4-content {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  padding-top: 200px;
+}
+.page4-content h2 {
+  color: #312b41;
+  font-family: sans-serif;
+  font-size: 55.5px;
+  margin: 0 0 24.75px;
+  position: relative;
+  z-index: 6;
+  font-weight: 700;
+  margin-top: 55rem;
+  padding-left: 12rem;
+}
+.page4-content p {
+  padding-left: 12rem;
+  font-size: 23.625px;
+  position: relative;
+  font-family: sans-serif;
+  width: 102rem;
+  color: #6f7082;
+}
+.page4-content .cards {
+  height: 50vh;
+  margin-top: 5rem;
+  width: 90rem;
+  margin-left: 12rem;
+  padding: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.cards .post1 {
+  height: 100%;
+  width: 27rem;
+  position: relative;
+}
+.cards .post2 {
+  height: 100%;
+  width: 27rem;
+  position: relative;
+}
+.cards .post3 {
+  height: 100%;
+  width: 27rem;
+  position: relative;
+}
+.page4-content .cards .post1 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  margin-top: 0%;
+  opacity: 1;
+  border: 0.1px solid black;
+  border-radius: 7px;
+}
+.page4-content .cards .post2 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin-top: 0%;
+  opacity: 1;
+  border: 0.1px solid black;
+  border-radius: 7px;
+}
+.page4-content .cards .post3 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin-top: 0%;
+  opacity: 1;
+  border: 0.1px solid black;
+  border-radius: 7px;
+}
+
+/* css for page5 content */
+
+.page5 {
+  height: 150vh;
+  width: 100%;
+}
+.page5 img {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.2;
+  background-size: cover;
+  position: absolute;
+  margin-top: 0%;
+  filter: blur(3px);
+}
+.page5 .img2 {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.2;
+  background-size: cover;
+  position: absolute;
+  margin-top: 100vh;
+  filter: blur(3px);
+}
+.page5 .page5-content {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 4;
+  padding-top: 100px;
+}
+.page5-content h2 {
+  color: #312b41;
+  font-family: sans-serif;
+  font-size: 55.5px;
+  margin: 0 0 24.75px;
+  position: relative;
+  z-index: 5;
+  font-weight: 700;
+  padding-left: 12rem;
+  margin-top: 5rem;
+}
+.page5-content p {
+  padding-left: 12rem;
+  font-size: 23.625px;
+  position: relative;
+  font-family: sans-serif;
+  width: 102rem;
+  color: #6f7082;
+}
+.page5-content p span {
+  color: #312b41;
+  font-weight: 500;
+}
+.page5 .page5-content .video {
+  height: 80vh;
+  margin-top: 5rem;
+  width: 90rem;
+  margin-left: 12rem;
+  border: 0.4px solid black;
+  border-radius: 1rem;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+  background-color: #dadada;
+}
+.page5-content .video video {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border: 0.5px solid black;
+  border-radius: 1rem;
+}
+
+.info-container {
+  height: 30vh;
+  margin-top: 3rem;
+  width: 90rem;
+  margin-left: 12rem;
+  padding: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.info-container .info {
+  height: 100%;
+  width: 27rem;
+  padding: 5px;
+}
+.info-container .info p {
+  width: 100%;
+  height: 100%;
+  padding-left: 34px;
+  font-size: 20px;
+  position: relative;
+  font-family: sans-serif;
+  color: #6f7082;
+  padding-top: 10px;
+}
+.info-container .info h4 {
+  color: #312b41;
+  font-family: sans-serif;
+  font-size: 24.5px;
+  font-weight: 600;
+}
+.info-container2 {
+  height: 30vh;
+  margin-top: 14rem;
+  width: 90rem;
+  margin-left: 12rem;
+  padding: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.info-container2 .info2 {
+  height: 100%;
+  width: 27rem;
+  padding: 5px;
+}
+.info-container2 .info2 p {
+  width: 100%;
+  height: 100%;
+  padding-left: 34px;
+  font-size: 20px;
+  position: relative;
+  font-family: sans-serif;
+  color: #6f7082;
+  padding-top: 10px;
+}
+.info-container2 .info2 h4 {
+  color: #312b41;
+  font-family: sans-serif;
+  font-size: 24.5px;
+  font-weight: 600;
+}
+
+/* css for page6 content */
+.page6 {
+  height: 70vh;
+  width: 100%;
+}
+.page6 img {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.2;
+  background-size: cover;
+  position: absolute;
+  margin-top: 0%;
+  filter: blur(3px);
+}
+.page6 .page6-content {
+  height: 44vh;
+  position: relative;
+  background-color: #312b41;
+  z-index: 5;
+  padding-top: 70px;
+  margin: 250px 50px;
+  margin-right: 50px;
+  margin-bottom: 10rem;
+}
+
+.page6-content h2 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40.5px;
+  margin: 0 0 24.75px;
+  position: relative;
+  z-index: 5;
+  font-weight: 700;
+  padding-left: 12rem;
+  margin-top: 0%;
+}
+.page6-content p {
+  padding-left: 12rem;
+  font-size: 19.625px;
+  position: relative;
+  font-family: sans-serif;
+  width: 102rem;
+  color: #6f7082;
+}
+.page6-content .button {
+  height: 50px;
+  width: 70rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.page6-content .button button {
+  width: 20rem;
+  font-size: 1.2rem;
+  border: 1px solid #312b41;
+  border-radius: 3px;
+}
+.Icon {
+  padding-bottom: 3px;
+}
+
+/* css for pricing  */
+
+.pricing {
+  width: 70rem;
+  margin-bottom: 3rem;
+  padding-top: 10rem;
+}
+.Font {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #312b41;
+  font-family: sans-serif;
+}
+.parah {
+  color: #312b41;
+  font-weight: 600;
+  position: relative;
+}
+.btn-p {
+  background-color: #312b41;
+  border: none;
+  color: #fff;
+}
+.n-text {
+  padding: 0%;
+  background-color: #312b41;
+  color: #fff;
+}
+.n-card {
+  border: 1px solid #312b41;
+}
+.cardbody {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+/* css for footer */
+.footer {
+  background-color: #dce0ec;
+  padding: 6rem;
+  margin-top: 0%;
+  width: 100%;
+  position: relative;
+  z-index: 7;
+  font-size: 1.3rem;
+}
+.title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: black;
+}
+
+/* css for text to speech */
+
+.speech-heading {
+  width: 100%;
+  height: 100vh;
+}
+
+.text-area {
+  height: 0vh;
+  width: 60%;
+  margin-left: 350px;
+  padding-top: 10rem;
+}
+.text-area .glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9px;
+  border: 0.1px solid rgba(red, green, blue, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  padding-bottom: 5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  position: absolute;
+  width: 60%;
+  resize: none;
+}
+.glass::placeholder {
+  font-size: 1.4rem;
+  color: black;
+  opacity: 0.7;
+}
+.items {
+  width: 90;
+  height: 50px;
+  position: relative;
+  margin-top: 34rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  padding: 5px;
+}
+.b-img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  background-size: cover;
+  position: absolute;
+  filter: blur(3px);
+}
+.items select {
+  width: 35rem;
+  border: 0.1px solid white;
+  border-radius: 3px;
+  margin-right: 25px;
+  background-color: #312b41;
+  color: #fff;
+  padding: 4px;
+  font-size: 18px;
+}
+.items .btn1 {
+  width: 15rem;
+  border: 0.1px solid white;
+  border-radius: 3px;
+  background-color: #312b41;
+  color: #fff;
+  font-size: 21px;
+  margin-left: 10px;
+}
+.items .btn1:hover {
+  border: 1px solid black;
+}
+.count {
+  font-size: 20px;
+  position: relative;
+  z-index: 9;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-left: 10rem;
+  padding-left: 10px;
+  padding-top: 5px;
+  background: #312b41;
+  color: #fff;
+  width: 120px;
+  height: 43px;
+  border: 1px solid #6f7082;
+  border-radius: 3px;
+}
+
+/* css for Header2  */
+
+nav {
+  height: 80px;
+  width: 100%;
+  background: #312b41;
+  display: flex;
+  position: relative;
+}
+nav h2 {
+  color: #fff;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+nav .nav-items {
+  padding-top: 25px;
+  padding-left: 8rem;
+  width: 53rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-items a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+nav .end-text {
+  width: 20rem;
+  padding-top: 20px;
+  margin-left: 40rem;
+}
+.speech-video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  position: absolute;
+}
+h5 {
+  margin-bottom: 2rem;
+}
+nav .nav-items a:hover {
+  border-bottom: 1px solid #fff154;
+  border-width: 5px;
+}
